@@ -27,6 +27,7 @@ public class JsonUtils {
     	try {
 			String string = MAPPER.writeValueAsString(data);
             System.out.println("1111");
+            System.out.println("1111");
             return string;
 		} catch (JsonProcessingException e) {
 			e.printStackTrace();
